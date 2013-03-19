@@ -434,6 +434,26 @@ a.zocial {
 .zocial.yelp {background-color: #e60010;}
 .zocial.youtube {background-color: #f00;}
 
+
+.zocial.inline {
+	padding-left: 0;
+	padding-right: 0;
+	max-height: none;
+	white-space: nowrap;
+	text-shadow: none;
+	border: none;
+	background: none;
+	color:inherit;
+	margin:0;
+}
+.zocial.inline:before {
+	margin:0;
+	padding: 0;
+	box-shadow: none;
+	color:inherit;
+	border: none;
+}
+
 /*
 The Miscellaneous Buttons
 These button have no icons and can be general purpose buttons while ensuring consistent button style
