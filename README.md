@@ -13,25 +13,41 @@ I basically rewrote this entire set so they are full vector buttons, meaning:
 - CSS3 degrades gracefully in IE8 and below etc.
 - also includes generic icon-less primary and secondary buttons
 
+*[Demo](https://samcollins.github.io/css-social-buttons/)*
+
 ## How to use these buttons
 
-	<button class='zocial facebook'>Button label here</button>
+```html
+<button class="zocial facebook">Button label here</button>
+```
 
 or
 
-	<a class="zocial twitter'>Button label</a>
+```html
+<a class="zocial twitter">Button label</a>
+```
 
 - Can be any element e.g. `a`, `div`, `button` etc.
 - Add class of `.zocial`
 - Add class for name of service e.g. `.dropbox`, `.twitter`, `.github`
 - Done :-)
 
-Check out [zocial.smcllns.com](http://zocial.smcllns.com) for demo and code examples.
+Check out [zocial.smcllns.com](http://zocial.smcllns.com) for code examples.
 
 There's also a LESS version from @gustavohenke [here](https://github.com/gustavohenke/zocial-less)
 
 Problems, questions or requests to [@smcllns](http://twitter.com/smcllns)
 
+## How to contribute
 
+1. Install [Font Custom](http://fontcustom.com/#installation)
+2. Add new font in the `src/` folder.
+3. Set color settings in the `templates/zocial.css` file.
+4. Run `fontcustom compile`
+5. Update the `sample.html` file with both the button and icon.
+6. Test rendering. If broken go to step 2.
+7. Send pull-request !
+
+## License
 
 Under [MIT License](http://opensource.org/licenses/mit-license.php)
