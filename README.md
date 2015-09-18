@@ -13,7 +13,7 @@ I basically rewrote this entire set so they are full vector buttons, meaning:
 - CSS3 degrades gracefully in IE8 and below etc.
 - also includes generic icon-less primary and secondary buttons
 
-*[Demo](https://samcollins.github.io/css-social-buttons/)*
+*[Demo](https://smcllns.github.io/css-social-buttons/)*
 
 ## How to use these buttons
 
@@ -37,6 +37,11 @@ Check out [zocial.smcllns.com](http://zocial.smcllns.com) for code examples.
 There's also a LESS version from @gustavohenke [here](https://github.com/gustavohenke/zocial-less)
 
 Problems, questions or requests to [@smcllns](http://twitter.com/smcllns)
+
+## CDN
+
+This project is available on CDNJS:
+https://cdnjs.com/libraries/css-social-buttons
 
 ## How to contribute
 
