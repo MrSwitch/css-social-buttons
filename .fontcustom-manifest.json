@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "e2474b33e3e864cf1857399079cbce4fe86e2b0f7d8fec6093016be2964be509",
-    "current": "e2474b33e3e864cf1857399079cbce4fe86e2b0f7d8fec6093016be2964be509"
+    "previous": "4a8381366308927397118a9bad71269bb86caa60b9d2e8431cf98fd7b6043f30",
+    "current": "4a8381366308927397118a9bad71269bb86caa60b9d2e8431cf98fd7b6043f30"
   },
   "fonts": [
     "./css/zocial.ttf",
@@ -361,6 +361,10 @@
     "tumblr": {
       "codepoint": 61782,
       "source": "./src/tumblr.svg"
+    },
+    "twitch": {
+      "codepoint": 61798,
+      "source": "./src/twitch.svg"
     },
     "twitter": {
       "codepoint": 61783,
